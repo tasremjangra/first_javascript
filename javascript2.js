@@ -15,7 +15,7 @@
 			return this.firstName+" "+this.lastName;
 		}
 
-		document.getElementById('demo').innerHTML=person.fullDetail;
+		document.getElementById('demo').innerHTML=person.fullDetail();
 	};
 
 </script>
