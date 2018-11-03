@@ -12,12 +12,12 @@
 		lastName: "Jangra",
 		address:"Dhani Majra",
 		fullDetail : function(){
-			return this.firstName+" "+this.lastName;
+			return this.firstName + " " + this.lastName;
 		}
-
-		document.getElementById('demo').innerHTML=person.fullDetail();
 	};
 
+		document.getElementById('demo').innerHTML=person.fullDetail();
+	
 </script>
 
 </body>
